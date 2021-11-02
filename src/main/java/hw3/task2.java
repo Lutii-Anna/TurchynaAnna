@@ -11,21 +11,25 @@ import java.util.Scanner;
 public class task2 {
     public static void main(String[] args) {
         System.out.println("If I drink, I die. If I eat, I am fine. What am I?");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your answer: ");
-        String answer = sc.nextLine();
-            switch (answer) {
-                case "Fire":
-                    System.out.println("Great!");
-                    break;
-
-                case "I don’t know":
-                    System.out.println("Answer: Fire");
-                    break;
-
-                case "":
-                    System.out.println("Think again");
-                    break;
+        String a = "Fire";
+        String b = "I don't know";
+        int i = 1;
+        while (i <= 3) {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter your answer:");
+            String answer = scan.nextLine();
+            if (answer.equals(a)) {
+                System.out.println("Great");
+                break;
+            }
+            if ((answer.equals(b))) {
+                System.out.println("Answer: Fire");
+                break;
+            }
+            else {
+                System.out.println("Think again");
+                i++;
+            }
         }
     }
 }
