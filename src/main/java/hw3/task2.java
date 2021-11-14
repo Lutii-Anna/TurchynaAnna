@@ -22,8 +22,9 @@ public class task2 {
                 System.out.println("Great");
                 break;
             }
+
             if ((answer.equals(b))) {
-                System.out.println("Answer: Fire");
+                System.out.println("Answer: FIRE");
                 break;
             }
             else {
