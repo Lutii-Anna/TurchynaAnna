@@ -19,4 +19,7 @@ public class task1 {
             System.out.println("Run again");
         }
     }
+
+//    public static Object checkInteger(int[] n, int a) {
+//    }
 }
