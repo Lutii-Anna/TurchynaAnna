@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite System "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite">
+    <test verbose="1" name="TestNG" annotation="JDK">
+        <classes>
+<!--            <class name="lecture7TestSecond.CalculatorTest">-->
+<!--                <method>-->
+<!--                    <include name="testSum"/>-->
+<!--                </method>-->
+<!--            </class>-->
+
+            <class name="lecture8.lucky.LuckyTestNG"/>
+        </classes>
+    </test>
+</suite>

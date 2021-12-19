@@ -18,20 +18,22 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.4.0</version>
-                <scope>test</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-
     </dependencies>
 
-
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--               <groupId>org.aeonbits.owner</groupId>-->
+<!--                <artifactId>owner-assembly</artifactId>-->
+<!--                <version>1.0.9</version>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 </project>
